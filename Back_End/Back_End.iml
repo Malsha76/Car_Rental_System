@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -11,5 +16,35 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.1.1" level="project" />
+    <orderEntry type="library" name="Maven: io.appwrite:sdk-for-android:0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp-bom:4.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.30" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:4.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp-urlconnection:4.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:4.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: androidx.lifecycle:lifecycle-runtime-ktx:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: androidx.lifecycle:lifecycle-common-java8:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: androidx.appcompat:appcompat:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: androidx.fragment:fragment-ktx:1.3.6" level="project" />
+    <orderEntry type="library" name="Maven: androidx.activity:activity-ktx:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: androidx.browser:browser:1.3.0" level="project" />
   </component>
 </module>
