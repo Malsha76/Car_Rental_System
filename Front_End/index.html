@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
 
     <meta charset="UTF-8">
@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/action.css">
 </head>
+
 <body>
 
 <!--Header-->
-
+<header class="header fixed-top d-flex align-items-center" id="header">
+    <div class="container d-flex align-items-center justify-content-between">
+        <d class="logo d-flex align-items-center me-auto me-lg-0" href="index.html">
 <h1> Easy Car</h1>
 <nav class="navbar" id="navbar">
     <ul>
@@ -26,11 +29,21 @@
         <li><a href="#about">About</a></li>
         <li><a href="#cars">Cars</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="register">Register</a></li>
-        <li><a href="contact">Contact</a></li>
-
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
+
 </nav>
+<!--            nav-->
+            <a class="btn-login-user" href="pages/login.html">Login</a>
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+</header>
+
+
+
 
 <!--navbar-->
 <!--<a class="btn-login-user" href=""></a>-->
@@ -268,13 +281,86 @@ id="customerForm"
                     <a class="glightbox" data-gallery="images-gallery" href="assets/images/gallery/gallery4.jpeg"><img
                             alt="" class="img-fluid" src="assets/images/gallery/gallery4.jpeg"></a>
                 </div>
-
             </div>
             <div class="swiper-pagination"></div>
         </div>
-
     </div>
+
 </section>
+
+<!-----------------------------contact-------------->
+
+<section class="contact" id="contact">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+            <h2>Contact</h2>
+        </div>
+
+
+        <div class="row gy-4 mt-3">
+
+            <div class="col-md-6 ">
+                <div class="info-item d-flex align-items-center sectionBorder ">
+                    <i class="icon bi bi-map flex-shrink-0 "></i>
+                    <div>
+                        <h3>Our Address</h3>
+                        <p>No. 200,Galle Road,Panadura.</p>
+                    </div>
+                </div>
+
+       </div>
+
+            <div class="col-md-6 ">
+                <div class="info-item d-flex align-items-center sectionBorder ">
+                    <i class="icon bi bi-envelope flex-shrink-0 "></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>easypanadura@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="info-item d-flex align-items-center sectionBorder ">
+                    <i class="icon bi bi-telephone flex-shrink-0 "></i>
+                    <div>
+                        <h3>Call Us</h3>
+                        <p>+91 453 7896</p>
+                    </div>
+                </div>
+            </div>
+            <form action=" " class="email-form p-3 p-md-4 " method="post " role="form ">
+                <div class="row ">
+                    <div class="col-xl-6 form-group ">
+                        <input class="form-control " id="contactName " name="name " placeholder="Your Name "
+                               required type="text ">
+                    </div>
+                    <div class="col-xl-6 form-group ">
+                        <input class="form-control " id="contactEmail " name="email " placeholder="Your Email "
+                               required type="email ">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <input class="form-control " id="contactSubject " name="subject " placeholder="Subject "
+                           required type="text ">
+                </div>
+                <div class="form-group ">
+                    <textarea class="form-control " name="message " placeholder="Message " required
+                              rows="5 "></textarea>
+                </div>
+                <div class="my-3 ">
+                    <div class="loading ">Loading</div>
+                    <div class="error-message "></div>
+                    <div class="sent-message ">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center ">
+                    <button class="btnSendForm" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+</section>
+
 
 </body>
 </html>
