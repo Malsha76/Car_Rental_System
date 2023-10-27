@@ -13,7 +13,8 @@
     400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/action.css">
+
+<!--    <link rel="stylesheet" href="assets/vendor/normalize.css">-->
 </head>
 
 <body>
@@ -21,8 +22,9 @@
 <!--Header-->
 <header class="header fixed-top d-flex align-items-center" id="header">
     <div class="container d-flex align-items-center justify-content-between">
-        <d class="logo d-flex align-items-center me-auto me-lg-0" href="index.html">
+        <a class="logo d-flex align-items-center me-auto me-lg-0" href="index.html">
 <h1> Easy Car</h1>
+        </a>
 <nav class="navbar" id="navbar">
     <ul>
         <li><a href="#">Home</a></li>
@@ -48,7 +50,7 @@
 <section class="hero d-flex align-items-center section-bg" id="hero">
     <div class="container">
         <div class="row justify-content-between gy-5">
-            <d class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center
+            <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center
              align-items-lg-start text-center text-lg-start">
                 <h2 data-aos="fade-up">Welcome to <br>Easy Car Rental</h2>
                 <p data-aos="fade-up" data-aos-delay="80">your one-stop destination for hassle-free and affordable car
@@ -58,6 +60,7 @@
                 <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                     <a class="btn-Register-customer-new" href="#register new cus">Register</a>
                 </div>
+            </div>
 
                 <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
                     <img alt="" class="img-fluid img-size" data-aos="zoom-out" data-aos-delay="300"
@@ -85,7 +88,7 @@
 
 <div class="row gy-4">
     <div class="col-lg-7 position-relative about-img"
-         data-aos="fade-up" data-aos-delay="150" style="background-image: url(assets/images/download.jpeg); ">
+         data-aos="fade-up" data-aos-delay="150" style="background-image: url(assets/images/about.jpg); ">
 <!--   data-aos="fade-up" data-aos-delay="150" style="background-image: url(assets/images/about.jpg);" >-->
 
 <!--        <img src="assets/images/about.jpg" width="800px" height="500" alt="">-->
@@ -128,8 +131,8 @@
 
 
             <div class="position-relative mt-4">
-                <img alt="" class="img-fluid" src="assets/images/about.jpg">
-                <a class="glightbox play-btn" href=""></a>
+
+
             </div>
         </div>
     </div>
@@ -144,7 +147,7 @@
     <section class="stats-counter" id="stats-counter">
         <div class="container" data-aos="zoom-out">
 
-            <se class="row gy-4">
+            <div class="row gy-4">
 
 
                 <div class="col-lg-3 col-md-6">
@@ -180,6 +183,8 @@
                         <p>Workers</p>
                     </div>
                 </div>
+                </div>
+        </div>
     </section>
 <!-----------------------------------------------Cars-------------------------------------------------->
 
@@ -238,6 +243,8 @@
 
 </section>
 
+<!--    Testimonials-->
+
 <!----------------------customer--------------------------------->
 
     <section class="register new cus" id="register new cus">
@@ -251,7 +258,7 @@
 
                 <div class="col-lg-4 register-img sectionBorder"
                      data-aos="zoom-out" data-aos-delay="200"
-                     style="background-image: url(assets/images/download.jpeg);"></div>
+                     style="background-image: url(assets/images/gallery/gallery4.jpeg);"></div>
 
 <div class="col-lg-8 d-flex align-items-center register-form-bg sectionBorder">
 <form action="customer" class="reg-customer-form" data-aos="fade-up" data-aos-delay="100"
@@ -403,7 +410,7 @@ id="customerForm"
 <!-----------------------------contact-------------->
 
 <section class="contact" id="contact">
-    <b class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
 
         <div class="section-header">
             <h2>Contact</h2>
@@ -470,8 +477,8 @@ id="customerForm"
                     <button class="btnSendForm" type="submit">Send Message</button>
                 </div>
             </form>
-        </div>
-</section>
 
+</section>
+</main>
 </body>
 </html>

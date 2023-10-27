@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 
 /**
- * @author Malsha Ekanayake
+ * @author : Malsha Ekanayake
  */
 
 public class WebAppInitializer extends
