@@ -821,13 +821,13 @@ section {
 /*# Customer */
 
 
-.Register-customer-new .register-img {
+. register new cus .register-img {
     min-height: 500px;
     background-size: cover;
     background-position: center;
 }
 
-.Register-customer-new .register-form-bg {
+.register new cus .register-form-bg {
     background: #dcdde1;
 
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
@@ -838,24 +838,24 @@ section {
     border-top-right-radius: 20px;
 }
 
-.Register-customer-new .reg-customer-form {
+.register new cus  .reg-customer-form {
     padding: 40px;
 }
 
 @media (max-width: 575px) {
-    .Register-customer-new .reg-customer-form {
+    .register new cus  .reg-customer-form {
         padding: 20px;
     }
 }
 
-.Register-customer-new .reg-customer-form h3 {
+.register new cus .reg-customer-form h3 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.Register-customer-new .reg-customer-form h4 {
+.register new cus  .reg-customer-form h4 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -863,12 +863,12 @@ section {
     margin: 20px 0 0 0;
 }
 
-.Register-customer-new .reg-customer-form p {
+.register new cus  .reg-customer-form p {
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-.Register-customer-new .reg-customer-form .error-message {
+.register new cus  .reg-customer-form .error-message {
     display: none;
     color: #fff;
     background: #df1529;
@@ -878,7 +878,7 @@ section {
     font-weight: 600;
 }
 
-.Register-customer-new .reg-customer-form .sent-message {
+.register new cus  .reg-customer-form .sent-message {
     display: none;
     color: #fff;
     background: #059652;
@@ -888,7 +888,7 @@ section {
     font-weight: 600;
 }
 
-.Register-customer-new .reg-customer-form .loading {
+.register new cus  .reg-customer-form .loading {
     display: none;
     background: #fff;
     text-align: center;
@@ -896,7 +896,7 @@ section {
     margin-bottom: 24px;
 }
 
-.Register-customer-new .reg-customer-form .loading:before {
+.register new cus  .reg-customer-form .loading:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -909,27 +909,27 @@ section {
     animation: animate-loading 1s linear infinite;
 }
 
-.Register-customer-new .reg-customer-form input,
-.Register-customer-new .reg-customer-form textarea {
+.register new cus  .reg-customer-form input,
+. register new cus.reg-customer-form textarea {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
 }
 
-.Register-customer-new .reg-customer-form input:focus {
+.register new cus .reg-customer-form input:focus {
     border-color: var(--color-primary);
 }
 
-.Register-customer-new .reg-customer-form input {
+.register new cus .reg-customer-form input {
     padding: 12px 15px;
 }
 
-.Register-customer-new .width {
+.register new cus .width {
     width: 25.2em;
 }
 
 @media (max-width: 425px) {
-    .Register-customer-new .width {
+    .register new cus .width {
         width: 100%;
     }
 }
@@ -940,7 +940,7 @@ section {
     }
 }
 
-.Register-customer-new .reg-customer-form button[type=button] {
+.register new cus .reg-customer-form button[type=button] {
     background: #218c74;
     border: 0;
     padding: 14px 60px;
@@ -949,7 +949,7 @@ section {
     border-radius: 50px;
 }
 
-.Register-customer-new .reg-customer-form button[type=button]:hover {
+.register new cus .reg-customer-form button[type=button]:hover {
     background: #20bf6b;
 }
 
