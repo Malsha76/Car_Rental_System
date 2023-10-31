@@ -214,5 +214,64 @@
                         <span>LogOut</span>
                     </a>
                 </li>
+
+</aside>
+<!-- End Sidebar-->
+
+<!--Main  -->
+<main id="main" class="main">
+
+    <!-- Driver Manage -->
+    <div class="pageTitle" id="pagethree">
+        <h1>Manage</h1>
+
+        <section class="container-fluid mt-3" id="manageDrivers">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../admin.html">Home</a></li>
+                    <li class="breadcrumb-item active">Manage / Drivers</li>
+                </ol>
+            </nav>
+
+            <div class="row mt-3">
+                <div class="card info-card">
+                    <div class="search-bar mt-4">
+                        <div class="search-bar">
+                            <div class="search-form d-flex align-items-center">
+                                <input type="search" name="driver_Id" id="search_Id" placeholder="Search" title="Enter search keyword">
+                                <button type="button" title="Search"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Search Bar -->
+                    <div class="row">
+                        <div class="col-xl-12 m-3">
+                            <form class="row" id="driverForm">
+                                <section id="sec1Driver" class="col-md-4 mt-3">
+                                    <div class="mb-sm-0 col-md-11">
+                                        <label class="form-label" for="user_Id">Driver Id</label>
+                                        <input class="form-control" id="user_Id" readonly type="text" name="user_Id" placeholder="DRI-001">
+                                        <span class="control-error"></span>
+                                    </div>
+                                    <div class="mb-sm-0 mt-3 col-md-11">
+                                        <label class="form-label" for="firstName">First Name</label>
+                                        <input class="form-control" id="firstName" type="text" name="firstName" placeholder="First Name">
+                                        <span class="control-error"></span>
+                                    </div>
+                                    <div class="mb-sm-0 mt-3 col-md-11">
+                                        <label class="form-label" for="lastName">Last Name</label>
+                                        <input class="form-control" id="lastName" type="text" name="lastName" placeholder="Last Name">
+                                        <span class="control-error"></span>
+                                    </div>
+                                    <div class="mb-sm-0 mt-3 col-md-11">
+                                        <label class="form-label" for="contact_No">Contact Number</label>
+                                        <input class="form-control" id="contact_No" type="text" name="contact_No" placeholder="Contact Number">
+                                        <span class="control-error"></span>
+                                    </div>
+                                    <div class="mb-sm-0 mt-3 col-md-11">
+                                        <label class="form-label" for="address">Address</label>
+                                        <input class="form-control" id="address" type="text" name="address" placeholder="Address">
+                                        <span class="control-error"></span>
+                                    </div>
 </body>
 </html>
