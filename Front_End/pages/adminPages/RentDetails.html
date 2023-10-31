@@ -169,10 +169,101 @@
 
         </ul>
     </nav>
-
-
-
 </header>
+<!-- Sidebar -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link " href="../admin.html">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-kanban"></i><span>Manage</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="../adminPages/Reg_UserManage.html">
+                        <i class="bi bi-circle"></i><span>Customer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../adminPages/Drivermanage.html">
+                        <i class="bi bi-circle"></i><span>Driver</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../adminPages/CarManage.html">
+                        <i class="bi bi-circle"></i><span>Car</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!-- End Forms Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-layout-text-window-reverse"></i><span>Details</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+
+                <li>
+                    <a href="RentDetails.html">
+                        <i class="bi bi-circle"></i><span>Rent Details</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End View Nav -->
+
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="CustomerRequest.html" id="myDetailsSection">
+                <i class="bi bi-kanban"></i>
+                <span>Rent Request</span>
+            </a>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="../login.html">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span>LogOut</span>
+            </a>
+        </li>
+    </ul>
+
+</aside>
+<!-- End Sidebar-->
+
+<!-- Main -->
+<main id="main" class="main">
+
+    <!--  Rent Manage  -->
+    <div class="pageTitle" id="pageFour">
+        <h1>Manage</h1>
+        <section class="container-fluid mt-3" id="manageRent">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../admin.html">Home</a></li>
+                    <li class="breadcrumb-item active">Details / Rent Details</li>
+                </ol>
+            </nav>
+
+            <div class="row mt-3">
+                <div class="card info-card">
+                    <!-- View Rent Details Table Start -->
+                    <div class="row mt-3 mt-md-2 mt-lg-4 justify-content-around"
+                         style="height: 490px;">
+                        <div class="col-11 justify-content-around sectionBorder"
+                             style="height: 460px; background: white">
+                            <div class="table-responsive customerTableDiv overflow-auto "
+                                 style="height: 470px;">
+                                <table class="table text-nowrap table-light table-striped table-bordered table-hover">
 
 </body>
 </html>
