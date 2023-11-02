@@ -1,6 +1,4 @@
 package dto;
-
-import com.easy.car_rental.enums.RoleType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
@@ -10,14 +8,14 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class UserDTO {
-    private String user_Id;
-    private RoleType role_Type;
-    private String user_Name;
+    private String user_id;
+    private String role;
+    private String user_name;
     private String password;
 
-    public UserDTO(RoleType role_Type, String user_Name, String password) {
-        this.role_Type = role_Type;
-        this.user_Name = user_Name;
+    public UserDTO(String role, String user_name, String password) {
+        this.role = role;
+        this.user_name = user_name;
         this.password = password;
     }
 
