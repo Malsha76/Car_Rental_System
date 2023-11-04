@@ -820,42 +820,41 @@ section {
 
 /*# Customer */
 
-
-. register new cus .register-img {
+.Register-customer-new .register-img {
     min-height: 500px;
     background-size: cover;
     background-position: center;
 }
 
-.register new cus .register-form-bg {
+.Register-customer-new .register-form-bg {
     background: #dcdde1;
-
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
-
+    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
-
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.register new cus  .reg-customer-form {
+.Register-customer-new .reg-customer-form {
     padding: 40px;
 }
 
 @media (max-width: 575px) {
-    .register new cus  .reg-customer-form {
+    .Register-customer-new .reg-customer-form {
         padding: 20px;
     }
 }
 
-.register new cus .reg-customer-form h3 {
+.Register-customer-new .reg-customer-form h3 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.register new cus  .reg-customer-form h4 {
+.Register-customer-new .reg-customer-form h4 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -863,12 +862,12 @@ section {
     margin: 20px 0 0 0;
 }
 
-.register new cus  .reg-customer-form p {
+.Register-customer-new .reg-customer-form p {
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-.register new cus  .reg-customer-form .error-message {
+.Register-customer-new .reg-customer-form .error-message {
     display: none;
     color: #fff;
     background: #df1529;
@@ -878,7 +877,7 @@ section {
     font-weight: 600;
 }
 
-.register new cus  .reg-customer-form .sent-message {
+.Register-customer-new .reg-customer-form .sent-message {
     display: none;
     color: #fff;
     background: #059652;
@@ -888,7 +887,7 @@ section {
     font-weight: 600;
 }
 
-.register new cus  .reg-customer-form .loading {
+.Register-customer-new .reg-customer-form .loading {
     display: none;
     background: #fff;
     text-align: center;
@@ -896,7 +895,7 @@ section {
     margin-bottom: 24px;
 }
 
-.register new cus  .reg-customer-form .loading:before {
+.Register-customer-new .reg-customer-form .loading:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -909,27 +908,27 @@ section {
     animation: animate-loading 1s linear infinite;
 }
 
-.register new cus  .reg-customer-form input,
-. register new cus.reg-customer-form textarea {
+.Register-customer-new .reg-customer-form input,
+.Register-customer-new .reg-customer-form textarea {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
 }
 
-.register new cus .reg-customer-form input:focus {
+.Register-customer-new .reg-customer-form input:focus {
     border-color: var(--color-primary);
 }
 
-.register new cus .reg-customer-form input {
+.Register-customer-new .reg-customer-form input {
     padding: 12px 15px;
 }
 
-.register new cus .width {
+.Register-customer-new .width {
     width: 25.2em;
 }
 
 @media (max-width: 425px) {
-    .register new cus .width {
+    .Register-customer-new .width {
         width: 100%;
     }
 }
@@ -940,7 +939,7 @@ section {
     }
 }
 
-.register new cus .reg-customer-form button[type=button] {
+.Register-customer-new .reg-customer-form button[type=button] {
     background: #218c74;
     border: 0;
     padding: 14px 60px;
@@ -949,7 +948,7 @@ section {
     border-radius: 50px;
 }
 
-.register new cus .reg-customer-form button[type=button]:hover {
+.Register-customer-new .reg-customer-form button[type=button]:hover {
     background: #20bf6b;
 }
 
@@ -970,6 +969,7 @@ section {
         transform: rotate(360deg);
     }
 }
+
 
 /*Gallery*/
 
