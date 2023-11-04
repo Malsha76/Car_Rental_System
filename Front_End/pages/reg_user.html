@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>User</title>
+    <title>User Dashboard</title>
+
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -15,16 +17,18 @@
     <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="../assets/vendor/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
     <!-- Template Dashboard CSS File -->
     <link href="../assets/css/dashboardStyle.css" rel="stylesheet">
 
 </head>
 <body>
-<!--header-->
+<!-- ======= Header ======= -->
 <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-        <a href="reg_user.html" class="logo d-flex align-items-center">
+        <a href="reg_UserDashboard.html" class="logo d-flex align-items-center">
             <span class="d-none d-lg-block">Easy <span>Rent.</span></span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -39,69 +43,11 @@
                 </a>
             </li><!-- End Search Icon-->
 
-<!--            <li class="nav-item dropdown pe-3">-->
-
-<!--                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">-->
-<!--                    <img src="../assets/images/massage/pro.png" alt="Profile" class="rounded-circle">-->
-<!--                    <span class="d-none d-md-block dropdown-toggle ps-2">Kamal Perera</span>-->
-<!--                </a>&lt;!&ndash; End Profile Iamge Icon &ndash;&gt;-->
-
-<!--                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">-->
-<!--                    <li class="dropdown-header">-->
-<!--                        <h6>Kamal Perera</h6>-->
-<!--                        <span>User</span>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <hr class="dropdown-divider">-->
-<!--                    </li>-->
-
-<!--                    <li>-->
-<!--                        <a class="dropdown-item d-flex align-items-center" id="userDetails">-->
-<!--                            <i class="bi bi-person"></i>-->
-<!--                            <span>My Profile</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <hr class="dropdown-divider">-->
-<!--                    </li>-->
-
-<!--                    <li>-->
-<!--                        <a class="dropdown-item d-flex align-items-center" id="userDetails">-->
-<!--                            <i class="bi bi-gear"></i>-->
-<!--                            <span>Account Settings</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <hr class="dropdown-divider">-->
-<!--                    </li>-->
-
-<!--                    <li>-->
-<!--                        <a class="dropdown-item d-flex align-items-center" href="">-->
-<!--                            <i class="bi bi-question-circle"></i>-->
-<!--                            <span>Need Help?</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li>-->
-<!--                        <hr class="dropdown-divider">-->
-<!--                    </li>-->
-
-<!--                    <li>-->
-<!--                        <a class="dropdown-item d-flex align-items-center" href="login.html">-->
-<!--                            <i class="bi bi-box-arrow-right"></i>-->
-<!--                            <span>Sign Out</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-
-<!--                </ul>-->
-            </li>
-
-        </ul>
-    </nav>
 
 </header>
 <!-- End Header -->
 
-<!--Sidebar-->
+<!-- ======= Sidebar ======= -->
 <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
@@ -113,7 +59,6 @@
             </a>
         </li>
         <!-- End Dashboard Nav -->
-
 
         <li class="nav-item">
             <a class="nav-link collapsed" id="myDetailsSection">
@@ -130,6 +75,7 @@
             </a>
         </li>
         <!-- End Rent Nav -->
+
         <li class="nav-item">
             <a class="nav-link collapsed" id="bookingResponseSection">
                 <i class="bi bi-journal-bookmark-fill"></i>
@@ -144,12 +90,14 @@
                 <span>LogOut</span>
             </a>
         </li>
+        <!-- End Login Page Nav -->
 
     </ul>
-    <!-- End Login Page Nav -->
-</aside>
 
-<!-----------main------------->
+</aside>
+<!-- End Sidebar-->
+
+<!-- ======= Main ======= -->
 <main id="main" class="main">
 
     <div class="pageTitle">
@@ -182,8 +130,7 @@
                     </div>
                     <!-- end button content-->
 
-
-<!--                    table content-->
+                    <!-- start response table content-->
                     <div class="row mt-1 mt-md-2 mt-lg-4 mm-2 p-2 justify-content-around" style="height: 350px;">
                         <div class="col-11 justify-content-around sectionBorder"
                              style="height: 290px; background: white">
@@ -206,8 +153,6 @@
                             </div>
                         </div>
                     </div>
-
-
                     <!-- end response table content-->
                 </div>
             </div>
@@ -277,7 +222,7 @@
                                             <div class="swiper-pagination"></div>
                                             <div class="autoplay-progress">
                                                 <svg viewBox="0 0 48 48">
-                                                    <circle cx="24" cy="24" r="5"></circle>
+                                                    <circle cx="24" cy="24" r="20"></circle>
                                                 </svg>
                                                 <span></span>
                                             </div>
@@ -285,7 +230,6 @@
 
                                     </div>
                                 </div>
-
                                 <div class="col-lg-6 p-2">
                                     <div class="row mt-1 m-2 p-1">
                                         <div class="col-12 col-md-6 col-lg-6">
@@ -354,13 +298,8 @@
                     </div>
                 </div>
             </div>
-
             <div class="card info-card">
-
-
-<!--            View Customer Details -->
-
-
+                <!-- View Customer Details Table Start -->
                 <div class="row mt-1 mt-md-2 mt-lg-4 mm-2 p-2 justify-content-around" style="height: 350px;">
                     <div class="col-11 justify-content-around sectionBorder"
                          style="height: 290px; background: white">
@@ -382,7 +321,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- View Customer Details Table End -->
             </div>
         </section>
         <section class="container-fluid mt-3" id="profileDetails">
@@ -461,6 +400,147 @@
                                                     class="text-danger"></span></label>
                                             <input class="form-control" id="customerLicence" name="license_No"
                                                    placeholder="Licence No" type="text">
-                                    </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label" for="imgLicence">Licence Image<span
+                                                    class="text-danger"></span></label>
+                                            <input class="form-control" id="imgLicence" name="license_Img"
+                                                   placeholder="NIC NO" type="file">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="customerUserName" class="form-label">User Name<span
+                                                    class="text-danger"></span></label>
+                                            <div class="input-group has-validation">
+                                                        <span class="input-group-text"
+                                                              id="customerInputGroupPrepend">@</span>
+                                                <input type="text" class="form-control" id="customerUserName"
+                                                       name="user_Name" placeholder="User Name"
+                                                       aria-describedby="customerInputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="customerPassword" class="form-label">Password<span
+                                                    class="text-danger"></span></label>
+                                            <div class="input-group input-group-merge">
+                                                <input type="password" id="customerPassword" name="password"
+                                                       class="form-control" placeholder="Password">
+                                                <div class="input-group-text" data-password="false">
+                                                    <span class="bi bi-eye-slash"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 d-grid gap-1 d-md-flex justify-content-md-end">
+                                            <button type="button" class="btn btn-warning btn me-md-1"
+                                                    id="updateCustomer">
+                                                Update
+                                            </button>
+                                        </div>
+                                    </section>
+                                </form>
+                            </div>
+                            <!-- end col-->
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end card-body -->
+                </div>
+                <div class="card info-card">
+                    <div class=" row col-12 mb-3 m-2 p-2 d-flex">
+                        <div class=" col-md-5 col-lg-5 col-sm-5 xs-5 img-fluid m-3 p-3"
+                             style="border: 2px solid black; height: 400px; " id="photoImg1"></div>
+                        <div class=" col-md-5 col-lg-5 col-sm-5 xs-5 img-fluid m-3 p-3"
+                             style="border: 2px solid black; height: 400px; " id="photoImg2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</main>
+<!-- End #main -->
+
+
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="../assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="../assets/vendor/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/jQuery/jquery-3.6.1.min.js "></script>
+<script rel="script" src="../assets/vendor/sweetalert2-11.6.16/sweetalert2.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Template Dashboard Main JS File -->
+<script src="../assets/js/dashboardMain.js"></script>
+
+<!-- Controller JS File -->
+<script src="../controller/regUserDashboardController.js"></script>
+
+<!-- Util JS File -->
+<script src="../util/alert.js" rel="script"></script>
+<script src="../util/validation.js" rel="script"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#userDashboardSection").click(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#rentSection").click(function () {
+        $("#bookingResponse").css('display', 'none');
+        $("#rentDetails").css('display', 'block');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#bookingResponseSection").click(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#myDetailsSection,#userDetails,#userDetailss").click(function () {
+        $("#bookingResponse").css('display', 'none');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'block');
+    });
+    <!-- Initialize Swiper -->
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        on: {
+            autoplayTimeLeft(s, time, progress) {
+                progressCircle.style.setProperty("--progress", 1 - progress);
+                progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+            }
+        }
+    });
+</script>
 </body>
 </html>

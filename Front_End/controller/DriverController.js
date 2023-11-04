@@ -1,3 +1,5 @@
+
+
 let driverBaseUrl = "http://localhost:8080/Back_End_war/";
 loadAllDrivers();
 
@@ -5,8 +7,10 @@ $("#btnSaveDriver").attr('disabled', true);
 $("#btnUpdateDriver").attr('disabled', true);
 $("#btnDeleteDriver").attr('disabled', true);
 
-// Customer Save
 
+/**
+ * Customer Save
+ * */
 $("#btnSaveDriver").click(function () {
     let formData = new FormData($("#driverForm")[0]);
     console.log(formData);
@@ -27,9 +31,9 @@ $("#btnSaveDriver").click(function () {
     });
 });
 
-
-  // User Driver Generator
-
+/**
+ * User Driver Generator
+ * */
 function generateDriverID() {
     $("#user_Id").val("DRI-001");
     $.ajax({
@@ -54,8 +58,10 @@ function generateDriverID() {
         }
     });
 }
-// clear input fields Values Method
 
+/**
+ * clear input fields Values Method
+ * */
 function setTextFieldValuesD(firstName, lastName, contact_No, address, email, nic_No, license_No, license_Img, driverAvailability, user_Name, password) {
     $("#firstName").val(firstName);
     $("#lastName").val(lastName);
@@ -74,8 +80,9 @@ function setTextFieldValuesD(firstName, lastName, contact_No, address, email, ni
     $("#btnSaveDriver").attr('disabled', true);
 }
 
-// load all customers Method
-
+/**
+ * load all customers Method
+ * */
 function loadAllDrivers() {
     $("#driverTable").empty();
     $.ajax({
@@ -112,8 +119,9 @@ function loadAllDrivers() {
     });
 }
 
-// Search id and Load Table
-
+/**
+ * Search id and Load Table
+ * */
 $("#search_Id").on("keypress", function (event) {
     if (event.which === 13) {
         var search = $("#search_Id").val();
@@ -151,8 +159,10 @@ $("#search_Id").on("keypress", function (event) {
 
 });
 
-// Table Listener Click and Load textFields
 
+/**
+ * Table Listener Click and Load textFields
+ * */
 function blindClickEventsD() {
     $("#driverTable>tr").on("click", function () {
         let user_Id = $(this).children().eq(0).text();
@@ -187,8 +197,9 @@ function blindClickEventsD() {
     $("#btnSaveDriver").attr('disabled', true);
 }
 
-// Update Action
-
+/**
+ * Update Action
+ * */
 $("#btnUpdateDriver").click(function () {
     let formData = new FormData($("#driverForm")[0]);
     console.log(formData);
@@ -209,8 +220,10 @@ $("#btnUpdateDriver").click(function () {
     });
 });
 
-// Delete
 
+/**
+ * Delete Action
+ * */
 $("#btnDeleteDriver").click(function () {
     let id = $("#user_Id").val();
     $.ajax({
@@ -224,7 +237,9 @@ $("#btnDeleteDriver").click(function () {
     });
 });
 
-
+/**
+ * Auto Forces Input Fields Save
+ * */
 $("#firstName").focus();
 const regExFirstName = /^[A-z ]{3,20}$/;
 const regExLastName = /^[A-z ]{3,20}$/;
